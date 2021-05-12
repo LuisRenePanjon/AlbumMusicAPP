@@ -1,0 +1,34 @@
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 15%;
+    border-radius: 20px;
+    margin: 10px;
+    flex-direction: column !important;
+    background-color: aliceblue;
+    
+}
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container2 {
+    padding: 2px 8px;
+    flex-direction: column !important;
+}
+
+img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+}
+::placeholder{
+    color: white;
+}
+input{
+    /* background-color: rgba(8, 174, 252, 0.521); */
+    background-color: rgba(1, 11, 15, 0.274);
+}

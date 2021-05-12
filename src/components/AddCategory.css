@@ -1,0 +1,9 @@
+input {
+    font-size: 1.3em;
+    width: 100%;
+    font-family: -apple-system;
+    border-radius: 20px;
+    padding: 10px;
+    background: rgba(103, 104, 104, 0.308);
+    user-select:none;
+}
